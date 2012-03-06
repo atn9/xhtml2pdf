@@ -580,7 +580,8 @@ def pisaLoop(node, context, path=[], **kw):
                 KeepInFrame(
                     content=substory,
                     maxWidth=keepInFrameMaxWidth,
-                    maxHeight=keepInFrameMaxHeight))
+                    maxHeight=keepInFrameMaxHeight,
+                    mode=keepInFrameMode))
             context.keepInFrameIndex = None
 
         # Static block, END
